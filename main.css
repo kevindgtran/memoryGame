@@ -1,0 +1,33 @@
+.header1{
+	color: #00b3b3;
+}
+.header2{
+	color: #ffd700;
+}
+
+footer{
+	text-align: center;
+	color: #eeeeee;
+	background-color: #00b3b3;
+	margin: 5px;
+	padding: 8px;
+}
+.footerTitle{
+	display: inline;
+	text-align: center;
+
+}
+.footertags {
+	margin-top: 10px;
+	color: blue;
+	display: inline;
+	text-align: center;
+}
+.symbols {
+	display: inline;
+}
+.productions {
+	display: inline;
+	font-size: 10px;
+}
+
