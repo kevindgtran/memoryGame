@@ -1,3 +1,7 @@
+body{
+	text-align: center;
+}
+
 .header1{
 	color: rgb(2, 132, 130);
 }
@@ -26,7 +30,6 @@ footer{
 .footerTitle{
 	display: inline;
 	text-align: center;
-
 }
 .footertags {
 	margin-top: 10px;
@@ -40,5 +43,9 @@ footer{
 .productions {
 	display: inline;
 	font-size: 10px;
+}
+.name {
+	font-weight: 700;
+	color: #088da5;
 }
 
