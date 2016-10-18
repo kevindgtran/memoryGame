@@ -2,18 +2,46 @@ body{
 	text-align: center;
 }
 
+nav {
+	background-color: #808080;
+}
+
+a {
+	background-color: #ffbf00;
+	color: white;
+	padding: 35px;
+	display: block;
+	float: left;
+}
+
+a:hover {
+	background-color: #ee5f3c;
+}
+
 .header1{
 	color: rgb(2, 132, 130);
+	clear: both;
+	align-content: center;
 }
 .header2{
 	color: #ffd700;
+	align-content: center;
+
 }
+
+p {
+	align-content: center;
+
+}
+
 .board {
-	height: 80%;
+	height: 50%;
 	width: 50%;
 	display: inline-block;
 }
 .card {
+	float: left;
+	margin: 8%;
 	height: 200px;
 	width: 150px;
 	border: 1px solid black;
@@ -23,29 +51,35 @@ body{
 footer{
 	text-align: center;
 	color: #eeeeee;
-	background-color: #cccccc;
+	background-color: #808080;
 	margin: 5px;
 	padding: 8px;
+	align-content: center;
+
 }
-.footerTitle{
+
+/*.footerTitle{
 	display: inline;
 	text-align: center;
-}
-.footertags {
+}*/
+
+/*.footertags {
 	margin-top: 10px;
 	color: blue;
 	display: inline;
 	text-align: center;
-}
+}*/
+
 .symbols {
 	display: inline;
+	padding: 5px; 
 }
 .productions {
 	display: inline;
-	font-size: 10px;
+	font-size: 15px;
 }
 .name {
 	font-weight: 700;
-	color: #088da5;
+	color: #f6546a;
 }
 
