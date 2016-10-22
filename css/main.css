@@ -49,6 +49,7 @@ p {
 	border-radius: 10px;
 }
 footer{
+	clear: both;
 	text-align: center;
 	color: #eeeeee;
 	background-color: #808080;
