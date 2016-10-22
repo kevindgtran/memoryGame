@@ -3,30 +3,32 @@
 <head>
 	<title>Memory Game</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
+	<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+	<link rel="icon" type="icon" href="images/suits.png">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
 </head>
 	<body>
-		<nav>
-		<a href="#">Instructions</a>
-		<a href="#">Game</a>	
+		<nav class="clearfix">
+		<a class="a" href="#">Instructions</a>
+		<a class="a" href="#">Game</a>	
 		</nav>
 
-		<h1 class="header1">Memory game</h1>
-		
-		<h2 class="header2">Instructions</h2>
-
-		<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
-		
-	<!-- 	<p>It&rsquo;s fun improving your memory and can help you in other spects of you life&#33; In school, work, relationships or just not having to make that second trip to the store becuase you forgot something.</p> -->
-		<hr>
-		<br>
-		<div id="game-board">
-		  <!-- <div class="card"></div> -->
-		  <!-- <div class="card"></div> -->
-		  <!-- <div class="card"></div> -->
-		  <!-- <div class="card"></div> -->
+		<div id="gameTitle">
+		<h1 class="animated tada">Memory game</h1>
 		</div>
 
+		<div id="gameInstructions">
+		<h2 class="follow animated fadeInLeft">Instructions</h2>
+		</div>
+
+		<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. It&rsquo;s fun improving your memory and can help you in other spects of you life&#33; In school, work, relationships or just not having to make that second trip to the store becuase you forgot something.</p>
+		
+		<hr>
+		<div class="tableTop">
+		<div id="game-board" class="board">
+		</div>
+		</div>
 	<footer>
 		<ul>
 			<li class="symbols">&spades;</li>
@@ -35,7 +37,7 @@
 			<li class="symbols">&hearts;</li>
 		</ul>
 		<ul>
-			<li class="productions"><span class="name">theycallmekevo</span> productions&trade;</li>
+			<li class="productions"><span class="name"><a id="contactLink" target="_blank" href="https://github.com/theycallmekevo">theycallmekevo</a></span> productions&trade;</li>
 		</ul>	
 	</footer>
 	<script src="../../../fundamentals/wdi-fundamentals-memorygame/starter-code/main.js"></script>
